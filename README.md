@@ -1,3 +1,29 @@
+# How this AWS online shop is built
+
+This project runs a shopping website on AWS. Customers reach it through layers of protection, and the database sits in a hidden area nobody on the internet can touch. Tap any block below to see what it is, why it is used, and where it sits.
+
+**WAF = security guard**Blocks bad visitors at the gate
+
+**Load balancer = reception**Sends each visitor to a free desk
+
+**Private servers = back office**Do the work, closed to the public
+
+**RDS = vault**Keeps customer and order data safe
+
+**0%**
+
+0 of 37 steps
+
+## Architecture map
+
+Read it top to bottom: a customer’s request travels down through each layer. Orange is public, teal is private, purple is security, blue is monitoring.
+
+## Deployment roadmap
+
+The 37 steps in README order, each with a plain explanation. Tick steps as you finish them. Your ticks are saved in this browser.
+
+
+
 AWS Production Smart eCommerce Platform
 Complete Step-by-Step Deployment Roadmap — Amazon Linux
 Purpose: This document is a practical deployment runbook. Follow the sections in order.
